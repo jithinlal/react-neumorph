@@ -1,2 +1,19 @@
-# countdown-timer
-A React library used to countdown time
+# NUOREACT
+
+NUOREACT helps you embrace nuomorphism in your react project with pretty customizable UI elements.
+With NUOREACT you could create a:
+
+- Container
+- Button
+
+### Installation
+
+Install NUOREACT as a dependancy in your react project
+
+```sh
+$ npm install nuoreact --save
+```
+
+## License
+
+MIT

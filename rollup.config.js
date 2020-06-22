@@ -33,7 +33,7 @@ const config = {
 	],
 	output: {
 		format: 'cjs',
-		name: 'nuomorph',
+		name: 'nuoreact',
 		globals: {
 			react: 'React',
 		},
