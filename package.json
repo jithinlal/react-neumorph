@@ -1,6 +1,6 @@
 {
 	"name": "nuoreact",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A UI element collection that embraces the nuomorphism concept",
 	"main": "dist/index.js",
 	"style": "dist/index.css",
