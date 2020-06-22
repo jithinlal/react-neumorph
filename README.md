@@ -5,6 +5,7 @@ With NUOREACT you could create a:
 
 - Container
 - Button
+- RoundButton
 
 ### Installation
 
