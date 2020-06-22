@@ -20,6 +20,7 @@
 	"homepage": "https://github.com/jithinlal/nuomorph#readme",
 	"devDependencies": {
 		"babel-core": "^6.26.3",
+		"babel-plugin-transform-object-rest-spread": "^6.26.0",
 		"babel-preset-react": "^6.24.1",
 		"classnames": "^2.2.5",
 		"postcss-modules": "^1.1.0",

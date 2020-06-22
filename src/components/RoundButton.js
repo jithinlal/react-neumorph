@@ -5,23 +5,21 @@ import { innerCC, outerCC } from '../helper/containerColor';
 import { innerSP, outerSP } from '../helper/shadowPosition';
 import { backgroundType } from '../helper/backgroundType';
 
-function Button({
+function RoundButton({
 	children,
 	type = 'convex',
-	borderRadius = 10,
-	blurStrength = 10,
 	backgroundColor = '#429d7d',
-	width = 100,
-	height = 50,
-	distance = 5,
+	radius = 50,
 	innerElementAlignItems = '',
 	innerElementJustifyContent = '',
 	innerShadowPosition = 'lb',
 	outerShadowPosition = 'rt',
 	innerElementPadding = 0,
+	blurStrength = 10,
 	onClickFunc = () => {},
 	...props
 }) {
+	const borderRadius = 25;
 	const [background, setBackground] = useState('');
 	const [clicked, setClicked] = useState(false);
 
@@ -30,14 +28,14 @@ function Button({
 
 	let innerboxShadow = innerSP(
 		innerShadowPosition,
-		distance,
+		5,
 		blurStrength,
 		innerShadowColor,
 	);
 
 	let outerboxShadow = outerSP(
 		outerShadowPosition,
-		distance,
+		5,
 		blurStrength,
 		outerShadowColor,
 	);
@@ -74,8 +72,8 @@ function Button({
 				display: 'flex',
 				alignItems: innerElementAlignItems,
 				justifyContent: innerElementJustifyContent,
-				width,
-				height,
+				width: radius,
+				height: radius,
 				padding: innerElementPadding,
 				background,
 				borderRadius: `${borderRadius}px`,
@@ -87,4 +85,4 @@ function Button({
 	);
 }
 
-export default Button;
+export default RoundButton;

@@ -9,16 +9,17 @@ function Container({
 	children,
 	type = 'flat',
 	borderRadius = 50,
-	blurStrength = 50,
+	blurStrength = 25,
 	backgroundColor = '#429d7d',
 	width = 500,
 	height = 500,
-	distance = 25,
+	distance = 5,
 	innerElementAlignItems = '',
 	innerElementJustifyContent = '',
 	innerShadowPosition = 'lb',
 	outerShadowPosition = 'rt',
-	innerElementPadding = 0,
+	innerElementPadding = 10,
+	...props
 }) {
 	if (!/^#[0-9A-F]{6}$/i.test(backgroundColor)) {
 		return null;
@@ -53,6 +54,7 @@ function Container({
 
 	return (
 		<div
+			{...props}
 			style={{
 				display: 'flex',
 				alignItems: innerElementAlignItems,
