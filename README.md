@@ -7,6 +7,7 @@ With NUOREACT you could create a:
 - Button
 - RoundButton
 - ButtonGroup
+- Switch
 
 ### Installation
 
