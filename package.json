@@ -9,15 +9,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jithinlal/nuomorph.git"
+		"url": "git+https://github.com/jithinlal/react-nuomorph.git"
 	},
 	"keywords": [],
 	"author": "Jithinlal",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/jithinlal/nuomorph/issues"
+		"url": "https://github.com/jithinlal/react-nuomorph/issues"
 	},
-	"homepage": "https://github.com/jithinlal/nuomorph#readme",
+	"homepage": "https://github.com/jithinlal/react-nuomorph#readme",
 	"devDependencies": {
 		"babel-core": "^6.26.3",
 		"babel-plugin-transform-object-rest-spread": "^6.26.0",
