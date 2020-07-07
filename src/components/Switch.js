@@ -1,4 +1,5 @@
 import React from 'react';
+import '../index.css';
 
 import { innerSC, outerSC } from '../helper/shadowColor';
 import { innerSP, outerSP } from '../helper/shadowPosition';
