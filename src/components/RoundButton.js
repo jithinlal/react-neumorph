@@ -10,8 +10,8 @@ function RoundButton({
 	type = 'convex',
 	backgroundColor = '#429d7d',
 	radius = 50,
-	innerElementAlignItems = '',
-	innerElementJustifyContent = '',
+	innerElementAlignItems = 'center',
+	innerElementJustifyContent = 'center',
 	innerShadowPosition = 'lb',
 	outerShadowPosition = 'rt',
 	innerElementPadding = 0,
@@ -19,7 +19,7 @@ function RoundButton({
 	onClickFunc = () => {},
 	...props
 }) {
-	const borderRadius = 25;
+	const borderRadius = radius / 2;
 	const [background, setBackground] = useState('');
 	const [clicked, setClicked] = useState(false);
 
